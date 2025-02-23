@@ -14,7 +14,7 @@ const projectsData = [
         title: "Inventory Management System with QR Code",
         description: "Generate by Vite and Laravel",
         imgUrl: "/images/Projects/Project1.jpg",
-        gitUrl: "/",
+        gitUrl: "https://github.com/gun15992/dss-inventory.git",
         tag: ["All", "Web Development"]
     },
     {
@@ -22,7 +22,7 @@ const projectsData = [
         title: "Thittawan's Portfolio",
         description: "Generate by Next.js",
         imgUrl: "/images/Projects/Project2.jpg",
-        gitUrl: "/",
+        gitUrl: "https://github.com/gun15992/portfolio-website.git",
         tag: ["All", "Web Development"]
     },
 ]
