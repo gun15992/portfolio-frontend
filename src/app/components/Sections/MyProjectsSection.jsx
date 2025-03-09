@@ -15,7 +15,7 @@ const projectsData = [
         description: "Generate by Vite and Laravel",
         imgUrl: "/images/Projects/Project1.jpg",
         gitUrl: "https://github.com/gun15992/dss-inventory.git",
-        tag: ["All", "Web Development"]
+        tag: ["All", "Website"]
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const projectsData = [
         description: "Generate by Next.js",
         imgUrl: "/images/Projects/Project2.jpg",
         gitUrl: "https://github.com/gun15992/portfolio-website.git",
-        tag: ["All", "Web Development"]
+        tag: ["All", "Website"]
     },
 ]
 
@@ -49,7 +49,7 @@ const MyProjectsSection = () => {
             <h2 className="text-center text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-green-600 mt-10 mb-1">My Projects</h2>
             <div className="text-white flex flex-row justify-center items-center gap-3 py-6">
                 <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
-                <ProjectTag onClick={handleTagChange} name="Web Development" isSelected={tag === "Web Development"} />
+                <ProjectTag onClick={handleTagChange} name="Website" isSelected={tag === "Website"} />
             </div>
             <ul ref={ref} className="grid md:grid-cols-2 gap-x-8 gap-y-4 md:gab-12">
                 {filterProjects.map((proj, index) => (

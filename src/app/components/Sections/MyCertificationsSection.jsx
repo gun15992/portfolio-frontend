@@ -15,7 +15,7 @@ const certificationsData = [
         description: "Endorsed by Thai Samsung Electronics Ltd.",
         imgUrl: "/images/Certifications/Certification1.jpg",
         previewUrl: "https://samsungsic-thailand.org/certificate-tutor?cert_hash=a1bc30c4e75a7099",
-        tag: ["All", "Programming Languages"]
+        tag: ["All", "Programming"]
     }
 ]
 
@@ -41,7 +41,7 @@ const MyCertificationsSection = () => {
             <h2 className="text-center text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-green-600 mt-10 mb-1">My Certifications</h2>
             <div className="text-white flex flex-row justify-center items-center gap-3 py-6">
                 <CertificationTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
-                <CertificationTag onClick={handleTagChange} name="Programming Languages" isSelected={tag === "Programming Languages"} />
+                <CertificationTag onClick={handleTagChange} name="Programming" isSelected={tag === "Programming"} />
             </div>
             <ul ref={ref} className="grid md:grid-cols-2 gap-x-8 gap-y-4 md:gab-12">
                 {filterCertifications.map((cert, index) => (
