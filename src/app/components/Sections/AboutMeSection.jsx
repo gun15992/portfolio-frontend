@@ -55,9 +55,13 @@ const tabData = [
         id: "experiences",
         content: (
             <ul>
-                <li className="font-bold">June 2024 - October 2024</li>
+                <li className="font-bold mb-3">June 2024 - October 2024</li>
                 <li>Co-operative Education</li>
                 <li>Department of Science Service (DSS)</li>
+
+                <li className="font-bold my-3">March 2025 - Present</li>
+                <li>Full Stack Developer</li>
+                <li>MonoGPS Co., Ltd.</li>
             </ul>
         )
     }
