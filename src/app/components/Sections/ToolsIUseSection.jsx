@@ -24,6 +24,13 @@ const ToolIUseSection = () => {
                     </div>
                 </div>
                 <div className="flex flex-row bg-[#121212] p-4 rounded-lg border-2 border-gray-500 hover:border-white lg:max-w-[800px]">
+                    <Image className="rounded-lg" src="/images/Logos/Vue.svg" alt="Vue Logo" width={50} height={50} />
+                    <div className="ml-6 flex flex-col justify-center">
+                        <h3 className="text-xl font-semibold text-white">Vue</h3>
+                        <p className="text-gray-400 text-sm mt-1">Framework</p>
+                    </div>
+                </div>
+                <div className="flex flex-row bg-[#121212] p-4 rounded-lg border-2 border-gray-500 hover:border-white lg:max-w-[800px]">
                     <Image className="rounded-lg" src="/images/Logos/Laravel.svg" alt="Laravel Logo" width={50} height={50} />
                     <div className="ml-6 flex flex-col justify-center">
                         <h3 className="text-xl font-semibold text-white">Laravel</h3>
