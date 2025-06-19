@@ -60,7 +60,7 @@ const tabData = [
                 <li className='mb-3'>Department of Science Service (DSS)</li>
 
                 <li className="font-bold mt-3">March 2025 - Present</li>
-                <li>Frontend Developer</li>
+                <li>Front-End Developer</li>
                 <li>MonoGPS Co., Ltd.</li>
             </ul>
         )
