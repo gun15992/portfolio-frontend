@@ -13,7 +13,7 @@ const tabData = [
         id: "skills",
         content: (
             <ul>
-                <li className="font-bold mb-3">Programming Languages</li>
+                <li className="font-bold text-green-500 mb-3">Programming Languages</li>
                 <li className="list-disc pl-2 ml-10">C</li>
                 <li className="list-disc pl-2 ml-10">C++</li>
                 <li className="list-disc pl-2 ml-10">Python</li>
@@ -24,13 +24,13 @@ const tabData = [
                 <li className="list-disc pl-2 ml-10">Javascript</li>
                 <li className="list-disc pl-2 ml-10">SQL</li>
 
-                <li className="font-bold my-3">Computer Skills</li>
+                <li className="font-bold text-green-500 my-3">Computer Skills</li>
                 <li className="list-disc pl-2 ml-10">Networking</li>
                 <li className="list-disc pl-2 ml-10">UX/UI Design</li>
                 <li className="list-disc pl-2 ml-10">Embeded System</li>
                 <li className="list-disc pl-2 ml-10">Microsoft Office 365</li>
 
-                <li className="font-bold my-3">Soft Skills</li>
+                <li className="font-bold text-green-500 my-3">Soft Skills</li>
                 <li className="list-disc pl-2 ml-10">Leadership</li>
                 <li className="list-disc pl-2 ml-10">Teamwork</li>
                 <li className="list-disc pl-2 ml-10">Communication</li>
@@ -44,7 +44,7 @@ const tabData = [
         id: "education",
         content: (
             <ul>
-                <li className="font-bold">July 2020 - November 2024</li>
+                <li className="font-bold text-green-500">July 2020 - November 2024</li>
                 <li>Bachelor of Engineering (Computer Engineering and Informatics)</li>
                 <li>Kasetsart University Sriracha Campus</li>
             </ul>
@@ -55,11 +55,11 @@ const tabData = [
         id: "experiences",
         content: (
             <ul>
-                <li className="font-bold">June 2024 - October 2024</li>
+                <li className="font-bold text-green-500">June 2024 - October 2024</li>
                 <li>Co-operative Education</li>
                 <li className='mb-3'>Department of Science Service (DSS)</li>
 
-                <li className="font-bold mt-3">March 2025 - Present</li>
+                <li className="font-bold text-green-500 mt-3">March 2025 - Present</li>
                 <li>Front-End Developer</li>
                 <li>MonoGPS Co., Ltd.</li>
             </ul>
