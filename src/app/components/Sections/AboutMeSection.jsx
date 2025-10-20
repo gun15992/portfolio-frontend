@@ -84,15 +84,9 @@ const AboutSection = () => {
                     <h2 className="text-4xl text-center md:text-start font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-green-600 mb-4">About Me</h2>
                     <p className="text-base lg:text-lg">A highly motivated individual with strong skills in Network, Web Development, UX/UI Design and Embedded Systems. During my internship with a government agency, I developed an asset management system using React, Bootstrap, Laravel, and Oracle Database. Moreover, my experience as a student leader has honed my teamwork, problem-solving, and leadership abilities, which I bring to every project. Which mean I'm committed to continuous learning and delivering high-impact contributions to your organization.</p>
                     <div className="flex flex-row justify-start mt-8">
-                        <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
-                            {" Skills "}
-                        </TabButton>
-                        <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>
-                            {" Education "}
-                        </TabButton>
-                        <TabButton selectTab={() => handleTabChange("experiences")} active={tab === "experiences"}>
-                            {" Experiences "}
-                        </TabButton>
+                        <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>{" Skills "}</TabButton>
+                        <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>{" Education "}</TabButton>
+                        <TabButton selectTab={() => handleTabChange("experiences")} active={tab === "experiences"}>{" Experiences "}</TabButton>
                     </div>
                     <hr className="h-px mt-3 bg-gray-200 border-0 dark:bg-gray-700" />
                     <div className="mt-4">
