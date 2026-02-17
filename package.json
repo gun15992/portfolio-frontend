@@ -12,7 +12,7 @@
     "@heroicons/react": "^2.2.0",
     "animated-number-react": "^0.1.2",
     "framer-motion": "^12.4.7",
-    "next": "15.1.7",
+    "next": "15.1.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-type-animation": "^3.2.0",
