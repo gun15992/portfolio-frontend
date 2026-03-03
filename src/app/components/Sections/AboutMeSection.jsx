@@ -25,10 +25,10 @@ const tabData = [
                 <li className="list-disc pl-2 ml-10">SQL</li>
 
                 <li className="font-bold text-green-500 my-3">Computer Skills</li>
-                <li className="list-disc pl-2 ml-10">Networking</li>
+                <li className="list-disc pl-2 ml-10">Web Development</li>
                 <li className="list-disc pl-2 ml-10">UX/UI Design</li>
+                <li className="list-disc pl-2 ml-10">Network</li>
                 <li className="list-disc pl-2 ml-10">Embeded System</li>
-                <li className="list-disc pl-2 ml-10">Microsoft Office 365</li>
 
                 <li className="font-bold text-green-500 my-3">Soft Skills</li>
                 <li className="list-disc pl-2 ml-10">Leadership</li>
@@ -55,13 +55,13 @@ const tabData = [
         id: "experiences",
         content: (
             <ul>
-                <li className="font-bold text-green-500">June 2024 - October 2024</li>
-                <li>Co-operative Education</li>
-                <li className='mb-3'>Department of Science Service (DSS)</li>
-
-                <li className="font-bold text-green-500 mt-3">March 2025 - Present</li>
+                <li className="font-bold text-green-500">March 2025 - Present</li>
                 <li>Front-End Developer</li>
                 <li>MonoGPS Co., Ltd.</li>
+
+                <li className="font-bold text-green-500 mt-3">June 2024 - October 2024</li>
+                <li>Co-operative Education</li>
+                <li className='mb-3'>Department of Science Service (DSS)</li>
             </ul>
         )
     }

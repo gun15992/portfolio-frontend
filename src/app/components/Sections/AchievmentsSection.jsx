@@ -20,10 +20,10 @@ const achievmentsList = [
         duration: 1000
     },
     {
-        prefix: "<",
+        prefix: "",
         metric: "Years",
         value: 1,
-        postfix: "",
+        postfix: "+",
         duration: 1000
     }
 ];
