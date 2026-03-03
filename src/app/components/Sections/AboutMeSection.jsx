@@ -60,7 +60,7 @@ const tabData = [
                 <li>MonoGPS Co., Ltd.</li>
 
                 <li className="font-bold text-green-500 mt-3">June 2024 - October 2024</li>
-                <li>Co-operative Education</li>
+                <li>Full Stack Developer (Co-operative Education)</li>
                 <li className='mb-3'>Department of Science Service (DSS)</li>
             </ul>
         )
